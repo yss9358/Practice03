@@ -13,7 +13,15 @@ public class Ex09 {
 		
 		*/
 		
+		for(int x=1;x<=10;x++) {
+			for(int y=0;y<10;y++) {
+			System.out.print(x+y+" ");
+		}System.out.println();
+		}
 		
+		
+		
+	
 	}
 
 }

@@ -17,7 +17,7 @@ public class Ex08 {
 			
 			
 			for (int y=2; y<=9; y++) {
-				System.out.print(y+"*"+x+"="+y*x+"      ");
+				System.out.print(y+"*"+x+"="+y*x+"   ");
 				
 			}
 			

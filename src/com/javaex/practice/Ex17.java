@@ -20,16 +20,14 @@ public class Ex17 {
 		System.out.print("숫자를 입력하세요: ");
 		
 		int num = sc.nextInt();
+		int x ;
 		
-		for (int i=1; i<=num; i++) { // i 부터 num 까지 반복 i가 num이 안넘어갈때까지
-			
-			for (int k=1; k<=num; k++) {
-				
-				System.out.print("*");
-			
-			}System.out.println();
-			
-		}
+		for (int i=0; i<num; i++) { // i 부터 num 까지 반복 i가 num이 안넘어갈때까지
+			x=num-i;
+						
+			System.out.print("*");
+						
+		}	
 		
 		sc.close();
 

@@ -2,15 +2,15 @@ package com.javaex.practice;
 
 import java.util.Scanner;
 
-public class Ex17 {
+public class Ex18 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
 		/*
 		
-		[Ex17.java]
-				
+		[Ex18.java]
+		
 		숫자 하나를 입력받아 아래와 같이 * 가 출력되도록 프로그램을 작성하세요
 		
 		*/
@@ -21,21 +21,17 @@ public class Ex17 {
 		
 		int num = sc.nextInt();
 		
-		
-		
 		for (int i=0; i<=num; i++) {
-			
-			for(int x =0; x<num-i; x++) {
-				
+			for (int x=0; x<num-i; x++) {
 				System.out.print("*");
+			} 
 				
-			}
-			System.out.println("");
-			
+			System.out.println();
 		}
 		
-				
+		
 		sc.close();
+		
 
 	}
 

@@ -21,11 +21,17 @@ public class Ex18 {
 		
 		int num = sc.nextInt();
 		
-		for (int i=0; i<=num; i++) {
-			for (int x=0; x<num-i; x++) {
+		for (int i=1; i<=num; i++) {
+			for (int x=1; x<=num+1-i; x++) {
 				System.out.print("*");
 			} 
 				
+			System.out.println();
+		}
+		for (int i=2; i<=num; i++) {
+			for (int x=1; x<=i; x++) {
+				System.out.print("*");
+			}
 			System.out.println();
 		}
 		
